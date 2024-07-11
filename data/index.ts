@@ -91,7 +91,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "E-learning - Online Platform",
+    title: "E-learning - Online Learning Platform",
     des: "Advance your engineering skills with us.",
     img: "/e-learn.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/fire.svg",],
