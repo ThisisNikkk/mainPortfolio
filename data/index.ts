@@ -83,11 +83,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "CityFood - Food Restaurant App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/cityFood.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fire.svg",],
-    link: "https://github.com/ThisisNikkk/CityFood/",
+    title: "Chef's Kitchen - Cooking Learning Platform",
+    des: "Chef's Kitchen empowers you to explore new cuisines, perfect classic dishes, and build confidence in your cooking.",
+    img: "/chef.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fire.svg",],
+    link: "https://chefkithcen.netlify.app/",
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ export const projects = [
     des: "Advance your engineering skills with us.",
     img: "/e-learn.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/fire.svg",],
-    link: "https://e-leaning-app.netlify.app//",
+    link: "https://e-leaning-app.netlify.app/",
   },
   {
     id: 4,
