@@ -79,7 +79,7 @@ export const projects = [
     des: "Your ultimate solution for seamless college fee payments and hassle-free financial management.",
     img: "/StudentWallet.png",
     iconLists: ["/html.svg", "/css.svg", "/boot.svg", "/js.svg", "/fire.svg"],
-    link: "https://thisisnikkk.github.io/StudentWallet/",
+    link: "https://studentwallet.netlify.app/",
   },
   {
     id: 2,
