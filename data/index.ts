@@ -110,34 +110,27 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
-    name: "Anjali Piuaty",
-    title: "Director & CEO of OctaNet Services Pvt Ltd.",
+    quote: "Narender transformed our brand identity completely! His creative vision and attention to detail helped us stand out in a crowded market. Working with him was seamless - he understood our needs instantly and delivered beyond expectations. Highly recommended!",
+    name: "Raj Patel, ",
+    title: "E-commerce Business Owner",
   },
   {
     quote:
-      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
-    name: "Anjali Piuaty",
-    title: "Director & CEO of OctaNet Services Pvt Ltd.",
+      "Narender has been instrumental in creating our visual identity. His graphics and illustrations perfectly capture our community's energy and spirit. His designs have significantly boosted our event engagement and brand recognition across Delhi's tech scene.",
+    name: "Himanshu Pandey",
+    title: "Delhi Dreamin Community",
   },
   {
     quote:
-      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
-    name: "Anjali Piuaty",
-    title: "Director & CEO of OctaNet Services Pvt Ltd.",
+      "Working with Narender was a game-changer for our marketing campaigns. His creative graphics increased our social media engagement by 60%. He's reliable, talented, and brings fresh perspectives to every project.",
+    name: "Priya Sharma",
+    title: "Marketing Director",
   },
   {
     quote:
-      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
-    name: "Anjali Piuaty",
-    title: "Director & CEO of OctaNet Services Pvt Ltd.",
-  },
-  {
-    quote:
-      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
-    name: "Anjali Piuaty",
-    title: "Director & CEO of OctaNet Services Pvt Ltd.",
+      "Narender designed our complete branding - from logo to menu layouts. His work brought more customers through our doors! He's professional, understands local market needs, and delivers quality work within budget.",
+    name: "Vinod Kumar",
+    title: "Local Restaurant Owner",
   },
 ];
 
