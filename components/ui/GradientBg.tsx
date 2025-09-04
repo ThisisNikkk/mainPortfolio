@@ -54,8 +54,12 @@ export const BackgroundGradientAnimation = ({
     document.body.style.setProperty("--fourth-color", fourthColor);
     document.body.style.setProperty("--fifth-color", fifthColor);
     document.body.style.setProperty("--pointer-color", pointerColor);
-    document.body.style.setProperty("--size", size);
-    document.body.style.setProperty("--blending-value", blendingValue);
+  }, []);
+  useEffect(() => {
+    if (typeof document !== "undefined") {
+      document.body.style.setProperty("--size", size);
+      document.body.style.setProperty("--blending-value", blendingValue);
+    }
   }, []);
 
   useEffect(() => {
