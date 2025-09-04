@@ -26,11 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Launch"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Once we're aligned on the vision, I get into my creative flow and start bringing your ideas to life. From initial concepts to pixel-perfect final designs, I maintain clear communication with regular check-ins and milestone updates."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Delivery Time"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Delivery time! Your designs are finalized and exported in all required formats. I've included source files, style guides, and usage instructions so your team can seamlessly integrate everything into your workflow."
         >
           <CanvasRevealEffect
             animationSpeed={3}

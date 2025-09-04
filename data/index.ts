@@ -1,7 +1,7 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "Home", link: "#home"},
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -31,7 +31,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -41,7 +41,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title:
+      "Creative designer crafting digital experiences through compelling visuals and intuitive interfaces.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -52,12 +53,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently learning about Web3, Blockchain and AI.",
+    title: "Currently designing Graphics and llustrations for Delhi Dreamin.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/b4.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -76,7 +77,7 @@ export const projects = [
   {
     id: 1,
     title: "StudenWallet - Fee Payment App",
-    des: "Your ultimate solution for seamless college fee payments and hassle-free financial management.",
+    des: "Designed an intuitive fee payment interface and financial dashboard using Figma and Adobe XD.",
     img: "/StudentWallet.png",
     iconLists: ["/html.svg", "/css.svg", "/boot.svg", "/js.svg", "/fire.svg"],
     link: "https://studentwallet.netlify.app/",
@@ -84,25 +85,25 @@ export const projects = [
   {
     id: 2,
     title: "Chef's Kitchen - Cooking Learning Platform",
-    des: "Chef's Kitchen empowers you to explore new cuisines, perfect classic dishes, and build confidence in your cooking.",
+    des: "Designed Chef's Kitchen website interface with intuitive recipe layouts and visual cooking guides.",
     img: "/chef.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fire.svg",],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fire.svg"],
     link: "https://chefkithcen.netlify.app/",
   },
   {
     id: 3,
     title: "E-learning - Online Learning Platform",
-    des: "Advance your engineering skills with us.",
+    des: "Designed E-learning platform interface with intuitive course navigation and interactive learning modules.",
     img: "/e-learn.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/fire.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fire.svg"],
     link: "https://e-leaning-app.netlify.app/",
   },
   {
     id: 4,
-    title: "Creato - Design Agency",
-    des: "Created this website from a figma design",
-    img: "/creato.png",
-    iconLists: ["/html.svg", "/css.svg", "/boot.svg", "/js.svg",],
+    title: "PrepAI - AI-powered Mock Interview Platform",
+    des: "AI-powered interview platform offering realistic simulations, personalized feedback for career success.",
+    img: "/prep.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fire.svg"],
     link: "https://creato-ui.netlify.app/",
   },
 ];
@@ -116,13 +117,13 @@ export const testimonials = [
   },
   {
     quote:
-       "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
+      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
     name: "Anjali Piuaty",
     title: "Director & CEO of OctaNet Services Pvt Ltd.",
   },
   {
     quote:
-       "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
+      "Collaborating with Nikhil was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nikhil's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Nikhil is the ideal partner.",
     name: "Anjali Piuaty",
     title: "Director & CEO of OctaNet Services Pvt Ltd.",
   },
@@ -143,62 +144,58 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "PhotoShop",
+    img: "/photoshop.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Figma",
+    img: "/figma.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Canva",
+    img: "/canva.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "LightRoom",
+    img: "/lightroom.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "MidJourney.",
+    img: "/mid.svg",
+  },
+  {
+    id: 6,
+    name: "DALL-E.",
+    img: "/dalle.svg",
+  },
+  {
+    id: 7,
+    name: "Gemini AI.",
+    img: "/gemi.svg",
+  },
+  {
+    id: 8,
+    name: "DaVinci Resolve.",
+    img: "/davinci.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Web Developer Intern",
-    desc: "Designed and optimized cross-platform user interfaces and client-side applications with and React which increases the user retention by 10% .",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Summer Intern",
-    desc: "Training based internship where I developed and maintained User Interface with modern technologies.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance Project",
-    desc: "Created a School Website using React and Firebase, developing front-end components and implementing code refactoring increases the efficiency by 20% .",
+    title: "Freelance Designer",
+    desc: "Started freelancing career creating hundreds of user interfaces and graphics for diverse clients, building expertise across digital design and brand identity.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "Lead Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies for college project.",
+    id: 2,
+    title: "Graphic Designer",
+    desc: "Currently creating graphics and illustrations for Salesforce Delhi Dreamin Community, designing event branding and visual assets that enhance community engagement and event experience.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -208,16 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/ThisisNikkk",
+    link: "https://github.com/Narenderkdev",
   },
   {
     id: 2,
     img: "/insta.svg",
-    link: "https://www.instagram.com/_thisisnikkk_",
+    link: "https://www.instagram.com/nrndrxs/",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/nikhilsiwan/",
+    link: "https://www.linkedin.com/in/narender-kumar-b06342266/",
   },
 ];

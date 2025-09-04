@@ -1,8 +1,9 @@
-import { FaFileInvoice, FaLocationArrow } from "react-icons/fa6";
+import { FaArrowDown, FaFileInvoice, FaLocationArrow, FaUps } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -34,25 +35,24 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
             <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Dynamic Web Magic with Next.js
             </p>
 
             <TextGenerateEffect
-              words="Transforming Concepts into Marvellous Reality"
+              words="Transforming Ideas into Marvellous Reality"
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! I&apos;m Nikhil Siwan, a Full Stack Developer Based In India.
+              Hi! I&apos;m Narender Kumar, a Freelance Designer Based In India.
             </p>
 
-            <a href="/cv.pdf" target="_blank">
+            <Link href="#about" scroll={true}>
               <MagicButton
-                title="My Resume"
-                icon={<FaFileInvoice />}
+                title="Here We Go"
+                icon={<FaArrowDown />}
                 position="right"
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
